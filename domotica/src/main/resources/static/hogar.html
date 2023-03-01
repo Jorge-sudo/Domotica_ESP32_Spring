@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Tabla Luces</title>
+
+    <!-- ================= Favicon ================== -->
+    <!-- Standard -->
+    <link rel="shortcut icon" href="http://placehold.it/64.png/000/fff">
+    <!-- Retina iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="144x144" href="http://placehold.it/144.png/000/fff">
+    <!-- Retina iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="114x114" href="http://placehold.it/114.png/000/fff">
+    <!-- Standard iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="72x72" href="http://placehold.it/72.png/000/fff">
+    <!-- Standard iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="http://placehold.it/57.png/000/fff">
+
+    <!-- Styles -->
+    <link href="css/lib/font-awesome.min.css" rel="stylesheet">
+    <link href="css/lib/themify-icons.css" rel="stylesheet">
+    <link href="css/lib/jsgrid/jsgrid-theme.min.css" rel="stylesheet" />
+    <link href="css/lib/jsgrid/jsgrid.min.css" type="text/css" rel="stylesheet" />
+    <link href="css/lib/menubar/sidebar.css" rel="stylesheet">
+    <link href="css/lib/bootstrap.min.css" rel="stylesheet">
+    <link href="css/lib/helper.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="sidebar sidebar-hide-to-small sidebar-shrink sidebar-gestures">
+    <div class="nano">
+        <div class="nano-content">
+            <ul>
+                <div class="logo"><a href="index.html">
+                    <img src="images/logo.png" alt="" /> <span>HOGAR</span></a>
+                </div>
+
+                <li>
+                    <a href="hogar.html">
+                        <i class="ti-layout-grid4-alt"></i>Control Casa
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!-- /# barra lateral -->
+
+<div class="header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="float-left">
+                    <div class="hamburger sidebar-toggle">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <div class="float-right">
+                    <div class="dropdown dib">
+                        <div class="header-icon" data-toggle="dropdown">
+                                <span class="user-avatar">Administrador: JORGE
+                                </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="content-wrap">
+    <div class="main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 p-r-0 title-margin-right">
+                    <div class="page-header">
+                        <div class="page-title">
+                            <h1>Hola, <span>Bienvenido </span></h1>
+                        </div>
+                    </div>
+                </div>
+                <!-- /# column -->
+                <div class="col-lg-4 p-l-0 title-margin-left">
+                    <div class="page-header">
+                        <div class="page-title">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                                <li class="breadcrumb-item active">Home</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <!-- /# column -->
+            </div>
+            <!-- /# row -->
+            <div id="main-content">
+                <table class="table table-hover" id="hogares">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Tipo</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Pin</th>
+                            <th scope="col">Estado</th>
+                            <th scope="col">Accion 1</th>
+                            <th scope="col">Accion 2</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+                <!-- /# row -->
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer">
+                            <p>2022 © Administrador . - <a href="https://github.com/Jorge-sudo" target="_blank"> Repositorio</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- jquery vendor -->
+<script src="js/lib/jquery.min.js"></script>
+<script src="js/lib/jquery.nanoscroller.min.js"></script>
+<!-- nano scroller -->
+<script src="js/lib/menubar/sidebar.js"></script>
+<script src="js/lib/preloader/pace.min.js"></script>
+<!-- sidebar -->
+
+<!-- bootstrap -->
+
+
+
+<!-- JS Grid Scripts Start-->
+<script src="js/lib/jsgrid/db.js"></script>
+<script src="js/lib/jsgrid/jsgrid.core.js"></script>
+<script src="js/lib/jsgrid/jsgrid.load-indicator.js"></script>
+<script src="js/lib/jsgrid/jsgrid.load-strategies.js"></script>
+<script src="js/lib/jsgrid/jsgrid.sort-strategies.js"></script>
+<script src="js/lib/jsgrid/jsgrid.field.js"></script>
+<script src="js/lib/jsgrid/fields/jsgrid.field.text.js"></script>
+<script src="js/lib/jsgrid/fields/jsgrid.field.number.js"></script>
+<script src="js/lib/jsgrid/fields/jsgrid.field.select.js"></script>
+<script src="js/lib/jsgrid/fields/jsgrid.field.checkbox.js"></script>
+<script src="js/lib/jsgrid/fields/jsgrid.field.control.js"></script>
+<script src="js/lib/jsgrid/jsgrid-init.js"></script>
+<!-- JS Grid Scripts End-->
+
+<script src="js/lib/bootstrap.min.js"></script><script src="js/scripts.js"></script>
+<!-- scripit init-->
+<!-- Page level custom scripts -->
+<script src="js/hogares.js"></script>
+
+</body>
+
+</html>

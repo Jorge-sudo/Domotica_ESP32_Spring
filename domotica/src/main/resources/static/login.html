@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns="http://www.w3.org/1999/xhtml" >
+
+<head>
+
+    <title>Login</title>
+
+    <!-- ================= Favicon ================== -->
+    <!-- Standard -->
+    <link rel="shortcut icon" href="http://placehold.it/64.png/000/fff">
+    <!-- Retina iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="144x144" href="http://placehold.it/144.png/000/fff">
+    <!-- Retina iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="114x114" href="http://placehold.it/114.png/000/fff">
+    <!-- Standard iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="72x72" href="http://placehold.it/72.png/000/fff">
+    <!-- Standard iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="http://placehold.it/57.png/000/fff">
+
+    <!-- Styles -->
+    <link href="css/lib/font-awesome.min.css" rel="stylesheet">
+    <link href="css/lib/themify-icons.css" rel="stylesheet">
+    <link href="css/lib/bootstrap.min.css" rel="stylesheet">
+    <link href="css/lib/helper.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="bg-primary">
+
+    <div class="unix-login">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="login-content">
+                        <div class="login-form">
+                            <h4>Login</h4>
+                            <form method="POST" th:action="@{/login}" >
+                                <div class="form-group">
+                                    <label>Usuario</label>
+                                    <input type="email" class="form-control" placeholder="Usuario">
+                                </div>
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input type="password" class="form-control" placeholder="Password">
+                                </div>
+                                <input type="submit" class="btn btn-primary btn-flat m-b-30 m-t-30">Iniciar Session</input>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
